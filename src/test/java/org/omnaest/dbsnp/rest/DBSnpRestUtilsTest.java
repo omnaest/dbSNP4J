@@ -2,7 +2,7 @@ package org.omnaest.dbsnp.rest;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.omnaest.dbsnp.rest.DBSnpRestUtils.VariantInfo;
+import org.omnaest.dbsnp.domain.VariantInfo;
 
 public class DBSnpRestUtilsTest
 {

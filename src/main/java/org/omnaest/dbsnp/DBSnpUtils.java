@@ -4,12 +4,12 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
+import org.omnaest.dbsnp.domain.AlleleAnnotation;
+import org.omnaest.dbsnp.domain.AssemblyAnnotation;
+import org.omnaest.dbsnp.domain.PrimarySnapshotData;
+import org.omnaest.dbsnp.domain.VariantInfo;
 import org.omnaest.dbsnp.rest.DBSnpRestUtils;
-import org.omnaest.dbsnp.rest.DBSnpRestUtils.AlleleAnnotation;
-import org.omnaest.dbsnp.rest.DBSnpRestUtils.AssemblyAnnotation;
 import org.omnaest.dbsnp.rest.DBSnpRestUtils.DBSnpRestAccessor;
-import org.omnaest.dbsnp.rest.DBSnpRestUtils.PrimarySnapshotData;
-import org.omnaest.dbsnp.rest.DBSnpRestUtils.VariantInfo;
 import org.omnaest.utils.PredicateUtils;
 
 public class DBSnpUtils
